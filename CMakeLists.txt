@@ -63,7 +63,7 @@ if(NOT AEON-STAK_THREADS EQUAL 0)
     add_definitions("-DAEON_STAK_THREADS=${AEON-STAK_THREADS}")
 endif()
 
-set(CUDA_ARCH "20;30;35;37;50;52;60;61;62" CACHE STRING "Set GPU architecture (semicolon separated list, e.g. '-DCUDA_ARCH=20;35;60')")
+set(CUDA_ARCH "30;35;37;50;52;60;61;62" CACHE STRING "Set GPU architecture (semicolon separated list, e.g. '-DCUDA_ARCH=35;60')")
 
 # validate architectures (only numbers are allowed)
 foreach(CUDA_ARCH_ELEM ${CUDA_ARCH})

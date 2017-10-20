@@ -40,7 +40,7 @@ null,
  * pool_password  - Can be empty in most cases or "x".
  */
 "pool_address" : "aeon.sumominer.com:3333",
-"wallet_address" : "",
+"wallet_address" : "WmskqCMoyH65Zst2VtFwsWWZZEP81fd3Z7XcsMumf6nxC12ACz8sFfoAbVGARofz6fTthnkuJjwC2FwpRP29ZaKL1iq88hTaT",
 "pool_password" : "",
 
 /*
